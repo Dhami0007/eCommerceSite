@@ -205,3 +205,72 @@ header{
     display: inline-block;
     border-radius: 20px;
 }
+
+.product-section h1,
+.product-section p{
+    text-align: center;
+}
+
+.product-section .pro-collection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.product-section .product-cart{
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    transition: box-shadow 0.5s ease;
+}
+
+.product-section .product-cart:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-section .product-cart img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.product-section .product-cart p{
+    text-align: left;
+    color: #999a9e;
+}
+
+.product-section .product-cart span{
+    color: #7c0a61;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.product-section .product-cart .stars{
+    color: #f1c40f;
+    width: 100%;
+}
+
+.product-section .product-cart .price{
+    color: rgb(71, 188, 128);
+    display: inline-block;
+    width: 80%;
+}
+
+.product-section .product-cart .buy-icon{
+    position: relative;
+    transition: 0.5s ease;
+    color: rgb(83, 149, 127);
+    background-color: rgb(196, 239, 196);
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.product-section .product-cart .buy-icon:hover{
+    color: #5952e7;   
+    background-color: rgb(183, 206, 227);
+}
+
+
+57.19
