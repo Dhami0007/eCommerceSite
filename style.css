@@ -150,6 +150,7 @@ header{
 #hero h4{
     padding-bottom: 15px;
     font-size: 40px;
+    color: black;
 }
 
 #hero h2{
@@ -273,4 +274,160 @@ header{
 }
 
 
-57.19
+#off-banner{
+    background-image: url(images/banner.jpg);
+    height: 40vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#off-banner h2, 
+#off-banner h4{
+    color: black;
+}
+
+#off-banner .normal{
+    background-color: transparent;
+    width: auto;
+    border: 1px black solid;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 25px;
+    transition: 0.5s ease;
+}
+
+#off-banner .normal:hover{
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    color: #22b144;
+}
+
+#banners{
+    margin: 0 60px;
+}
+
+#banners h2,h4, span{
+    color: rgb(248,248,248);
+}
+
+#banners .big-banners{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#banners .small-banners{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#banners .big-banners div{
+    min-width: 500px;
+    margin: 15px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px;
+    background-size: cover;
+    backdrop-filter: blur(10%);
+}
+
+#banners .big-banners .big-banner-1{
+    background-image: url(images/cta-1.jpg);
+}
+
+#banners .big-banners .big-banner-2{
+    background-image: url(images/cta-2.jpg);
+}
+
+#banners .big-banners .banner-btn{
+    background-color: transparent;
+    width: 150px;
+    border: 1px white solid;
+    margin: 30px 0;
+    padding: 15px 0;
+    color: white;
+    border-radius: 10px;
+    transition: 0.7s ease;
+}
+
+#banners .big-banners .banner-btn:hover{
+    background-color: rgb(127, 103, 51, 0.5);
+    color: rgb(239, 216, 120);
+    cursor: pointer;
+    font-size: 100%;
+}
+
+#banners .small-banners div{
+    min-width: 330px;
+    max-width: 350px;
+    margin: 15px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px;
+    background-size: cover;
+    backdrop-filter: blur(10%);
+}
+
+#banners .small-banners div h2,
+#banners .small-banners div h4{
+    color: black;
+}
+
+#banners .small-banners .small-banner-1{
+    background-image: url(images/cta-3.jpg);
+}
+
+#banners .small-banners .small-banner-2{
+    background-image: url(images/cta-4.jpg);
+}
+
+#banners .small-banners .small-banner-3{
+    background-image: url(images/cta-5.jpg);
+}
+
+#footer{
+    margin: 50px 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#footer .right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#footer .right div{
+    margin: 0 50px;
+}
+
+#footer .right div ul{
+    list-style: none;
+}
+
+#footer .right div ul a{
+    display: block;
+    text-decoration: none;
+    color: #222;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s ease;
+    margin:15px 0;
+}
